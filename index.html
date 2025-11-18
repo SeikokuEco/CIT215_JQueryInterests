@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Interests</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="../lib/jquery-3.7.1.js"></script>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</head>
+<body>
+
+    <header><h1>JQuery Music Interests</h1></header>
+
+    <div class="wrapper">
+
+        <label for="random song button" style="margin: 4px; background-color: lightblue; padding: 2px;">
+            Click to Pick a Random Song:
+            <button id="randomSongButton">Pick a Random Song</button>
+        </label>
+
+        <div class="songDisplay">
+            <div class="songInformation">
+                <label><h4>Title:</h4> <p id="title"></p></label>
+                <label><h4>Artist:</h4> <p id="artist"></p></label>
+                <label><h4>Release Date:</h4> <p id="releaseDate"></p></label>
+                <label><h4>Spotify Link:</h4> <p id="spotifyLink"></p></label>
+
+            </div>
+            <div class="embed">
+                <!-- spotify iframe embed code -->
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>
